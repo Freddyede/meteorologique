@@ -20,12 +20,14 @@ function HeaderLayout({setCitiesState, citiesState}) {
                 <div className="containerSearch">
                     <input
                         type="text"
+                        value={search}
                         onChange={(e) => setSearch(e.target.value)}
                     />
                     <button
                         onClick={
                             () => {
                                 Api.searchByInput(search).then((result) => setNewObject(result));
+                                setSearch('');
                             }
                         }
                     >Rechercher

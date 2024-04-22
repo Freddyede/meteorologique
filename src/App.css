@@ -1,0 +1,80 @@
+#root {
+	margin: var(--marginAndPadding);
+	padding: var(--marginAndPadding);
+	margin-left: 15px;
+	padding-top: 2%;
+}
+body {
+	background-color: #1E1E1E;
+	color: #fff;
+}
+
+button {
+	background-color: #1298c1;
+	outline: none;
+	border: none;
+	color: #ffffff;
+	margin-left: 15px;
+	border-radius: 15px;
+	height: 40px;
+	width: 100px;
+}
+
+.card-container {
+	display: flex;
+	flex-direction: row;
+	height: 65vh;
+	flex-wrap: wrap;
+	gap: 2%;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+
+input {
+	height: 40px;
+	width: 250px;
+	border: none;
+	border-radius: 15px;
+	background-color: #683030;
+	text-align: center;
+	color:white;
+}
+
+.containerResult {
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 15px;
+	align-items: center;
+	flex-direction: row;
+	div:first-child {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		padding-left: 5px;
+		border-radius: 5px;
+		height: 40px;
+		width: 250px;
+		background-color: #683030;
+	}
+}
+
+
+.containerResult2 {
+	display: flex;
+	flex-direction: column;
+	padding-left: 15px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	overflow: hidden;
+	overflow-y: scroll;
+	border-radius: 5px;
+	height: 122px;
+	width: 250px;
+	div {
+		height: 40px;
+		margin-top: 5%;
+		padding-left: 5px;
+		border-radius: 5px;
+		background-color: #683030;
+	}
+}

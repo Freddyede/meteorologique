@@ -1,0 +1,8 @@
+:root {
+	--marginAndPadding: 0;
+}
+
+body  {
+	margin: var(--marginAndPadding);
+	padding: var(--marginAndPadding);
+}

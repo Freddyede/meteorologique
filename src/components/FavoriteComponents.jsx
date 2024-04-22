@@ -1,3 +1,4 @@
+import './favorite.component.css';
 import CardComponent from "./CardComponent.jsx";
 
 function FavoriteComponents({ citiesState, changeFavorite }) {
